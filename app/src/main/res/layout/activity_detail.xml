@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
-        android:src="@drawable/sandwich"
         android:alpha="0.6"
         android:contentDescription="@string/sandwich_picture_content_description"
         android:scaleType="centerCrop" />
@@ -26,7 +25,7 @@
         android:layout_margin="16dp"
         android:layout_gravity="center">
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detail_also_known_as_label"
@@ -37,11 +36,10 @@
             android:id="@+id/also_known_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="somthing"
             android:layout_marginTop="8dp"
             android:textSize="22sp"/>
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -54,11 +52,10 @@
             android:id="@+id/ingredients_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="somthing"
             android:layout_marginBottom="8dp"
             android:textSize="22sp"/>
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detail_place_of_origin_label"
@@ -69,12 +66,11 @@
             android:id="@+id/origin_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Somthing"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:textSize="22sp"/>
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detail_description_label"
@@ -85,7 +81,6 @@
             android:id="@+id/description_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="somthing"
             android:layout_marginTop="8dp"
             android:textSize="22sp"/>
     </LinearLayout>
